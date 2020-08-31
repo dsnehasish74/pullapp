@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.main-input{
+  margin-top: 30px;
+}
+.input-item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+#Pullitem{
+ flex: 0.9;
+}
+.add{
+  padding: 0px 20px;
+  border-radius: 50%;
+  background-color: white;
+  color:green;
+  font-size: xx-large;
+  border-style: none;
+  -webkit-box-shadow: 1px 3px 2px 2px #ccc;  
+  -moz-box-shadow:    1px 3px 2px 2px #ccc; 
+  box-shadow:         1px 3px 2px 2px #ccc; 
+  
+}
+.create-pull{
+  background-color:rgba(60, 116, 236, 0.651);
+  margin-top:20px;
+  width: 100%;
+  height: 30px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
+}
+.signupsvg{
+  height: 500px;
+  width: 500px;
+}
+
+.formsignup{
+  margin-top: 30px;
+}
+
+.reload{
+  margin-top: 30px;
+}
+.header_tab{
+  display: flex;
+  justify-content: space-between;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+}
+.Result{
+  margin-top:50px;
+}
+.pullitem{
+  width: 50px;
+  background-color: steelblue;
+  margin: 10px;
+  border-radius: 2px;
+}
+
+.Home{
+  height: 100vh;
+  background-color: black;
+}
+.intro{
+  width: 50%;
+  color:white;
+  margin: 0 auto;
+  padding-top: 10%;
+  text-align: center;
+}
